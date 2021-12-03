@@ -9,7 +9,10 @@ body {
   padding: 20px;
   background: #eee;
 }
-
+.oneLine {
+  display: flex;
+  align-items: center;
+}
 .black-nav {
   background: black;
   width: 100%;

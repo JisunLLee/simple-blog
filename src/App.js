@@ -61,8 +61,10 @@ function Modal(){
 function List(props){
   return(
     <div className='list'>
+    <div className='oneLine'>
     <h3>{ props.posts }</h3>
     <span onClick = {()=>{props.incrementTumbs(props.number)}}>👍</span> {props.thums}
+    </div>
     <p>11월 30일 발행</p>
     <hr/>
   </div>
